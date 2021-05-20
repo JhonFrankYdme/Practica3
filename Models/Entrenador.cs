@@ -1,3 +1,7 @@
+using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace pokemon001.Models
 
 
@@ -13,5 +17,12 @@ public class Entrenador
 
 
         public int PuebloId { get; set; }
+        
+
+[NotMapped]
+    public String Respuesta { get; set; }
+
+
+
     }
 }
