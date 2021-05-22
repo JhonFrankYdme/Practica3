@@ -23,7 +23,7 @@
             <td>
                 <a href="/ubicaciones/editarentrenador/@item.Id" class="btn btn-secondary">Editar</a>
 
-                <form action="/ubicaciones/borrarentrenador" method="post" class="d-inline-block">
+              <form action="/ubicaciones/borrarentrenador" method="post" class="d-inline-block">
                     <input type="hidden" name="id" value="@item.Id" />
                     <button class="btn btn-danger">Borrar</button>
                 </form>
@@ -37,3 +37,4 @@
     }
 </table>
 
+<a href="/ubicaciones/nuevoentrenador" class="btn btn-primary">Añadir Entrenador</a>
